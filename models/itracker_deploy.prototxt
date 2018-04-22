@@ -550,7 +550,7 @@ layer {
   bottom: "conv4_r"
   top: "concat1"
   type: "Concat"
-  concat_param {
+  param {
     axis: 1
   }
 }
@@ -638,7 +638,7 @@ layer {
   bottom: "fc2_f"
   top: "concat2"
   type: "Concat"
-  concat_param {
+  param {
     axis: 1
   }
 }
